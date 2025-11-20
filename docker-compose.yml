@@ -1,0 +1,8 @@
+services:
+    app:
+        container_name: sunga-web-container
+        image: sunga-web
+        build:
+            context: .
+        ports:
+            - "3300:3000"
