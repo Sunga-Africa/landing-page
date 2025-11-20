@@ -111,10 +111,10 @@ export default function Privacy() {
                 IMPORTANT INFORMATION AND WHO WE ARE
               </h1>
               <p className="text-[#4141FF] lg:text-[20px] leading-[100%] text-[14px]">
-                Last Updated Nov, 2025
+                Last Updated Nov 20, 2025
               </p>
             </motion.div>
-                <FAQs />
+            <FAQs />
           </motion.div>
         </motion.div>
       </HomeLayout>
