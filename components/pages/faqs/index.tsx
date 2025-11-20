@@ -356,6 +356,18 @@ How We Share Information:
           <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >with relevant law enforcement officials or other third parties, such as investigators or auditors, if we believe it is appropriate to investigate fraud.
 </li>
         </ul>
+         <p class="text-[#1F2226] lg:text-[14px] mt-3  leading-[150%] font-normal font-dm-sans text-[14px]" >
+          We do not share your Personal Information with: (1) other companies for joint marketing purposes without your consent; or (2) any other third parties so they can market to you.
+        </p>
+       <p class="text-[#1F2226] lg:text-[14px] mt-3  leading-[150%] font-normal font-dm-sans text-[14px]" >
+      If you provide us with bank account or debit card information, or any other payment information, through our Services, we may share that information with third-party payment processors and other third-party service providers, solely to the extent necessary to provide you with the relevant Services.
+      </p>
+       <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+When you are no longer our User, we may continue to share your information as described in this Privacy Policy as permitted by applicable laws.
+      </p>
+       <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+We may disclose Analytics with third parties for our commercial purposes.
+      </p>
   </div>
     `,
     status: false
@@ -363,55 +375,170 @@ How We Share Information:
   {
     id: 7,
     name: 'INFORMATION YOU SHARE SOCIALLY',
-    description: ``,
+    description: `
+     <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+        We may disclose Analytics with third parties for our commercial purposes.
+      </p>
+      <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+          You may also use our Services to connect with us on, share on, and utilize third-party websites, applications, and services. We urge you to consider your personal privacy needs and the privacy needs of others when deciding who to connect with and what to share and make public.
+      </p>
+       <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        Please be aware that we cannot control the privacy or security of information you choose to make public or share with others, nor do we control the privacy practices of third parties. For information regarding their privacy practices, please contact those sites and services directly.
+      </p>
+      `,
     status: false
   },
   {
     id: 8,
     name: 'SECURITY AND STORAGE OF YOUR PERSONAL INFORMATION',
-    description: ``,
+    description: `
+     <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        We have suitable security measures in place to prevent your Personal Information from being accidentally lost or used or accessed in an unauthorised way by a third party. When your bank account information is transmitted via our Services, it will be protected by encryption technology, such as Secure Sockets Layer (SSL). In addition, we limit access to your Personal Information to those employees, employers, agents, contractors and other third parties who have a business need to know. They will only process your Personal Information on our instructions. We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so.
+      </p>
+       <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        We have, and require our third-party service providers that receive Personal Information from us to have, a comprehensive written information security program that contains administrative, technical, and physical safeguards for our respective physical facilities and in our respective computer systems, databases, and communications networks that are reasonably designed to protect information contained within such systems from loss, misuse, or alteration.
+      </p>
+
+       <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        No method of electronic transmission or storage is 100% secure. Therefore, we cannot guarantee absolute security of your Personal Information. You also play a role in protecting your Personal Information. Please safeguard your email address, username and password for your Sunga account and do not share them with others.
+      </p>
+
+      <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        If we receive instructions using your Sunga account login information or other Sunga account <br />
+        security information, we will consider that you have authorized the instructions. You agree to notify us immediately of any unauthorized use of your Sunga account or any other breach of security. We reserve the right, in our sole discretion, to refuse to provide our Services, terminate Sunga accounts, and to remove or edit content.
+      </p>
+
+      <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+Subject to applicable law, which might, from time to time, oblige us to store your Personal Information for a certain period of time, we will retain your Personal Information for as long as necessary to fulfil the purposes we collected it for, including the purposes of satisfying any legal, accounting, or reporting requirements.
+      </p>
+
+    `,
     status: false
   },
   {
     id: 9,
-    name: 'PROTECTING CHILDREN’S PRIVACY',
-    description: ``,
+    name: "PROTECTING CHILDREN'S PRIVACY",
+    description: `
+     <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+      Our services are not intended for individuals under eighteen (18) years of age. We do not intentionally gather Personal Information from anyone under 18. If you are under eighteen (18), please refrain from using our Services or providing us with any information.
+    </p>
+      `,
     status: false
   },
   {
     id: 10,
     name: 'LINKS TO THIRD-PARTY WEBSITES',
-    description: ``,
+    description: `
+      <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        When you use our Services, you may be directed to other websites that are beyond our control. We may also allow third-party websites or applications to link to our Services. We are not responsible for the privacy practices of any third parties or the content of linked websites, but we do encourage you to read the applicable privacy policies and terms and conditions of such parties and websites. This Privacy Policy only applies to our Services.
+    </p>
+    `,
     status: false
   },
   {
     id: 11,
     name: 'DATA SECURITY AND RETENTION',
-    description: ``,
+    description: `  
+    <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+We implement robust physical, electronic, and administrative security measures to prevent unauthorized access, unlawful processing, and foreseeable hazards or breaches online. We retain your Personal Information only for as long as necessary to fulfill the purposes for which it was collected and to provide you with enhanced services. We determine the appropriate retention period by considering the volume, nature, and sensitivity of the information, the potential risk of harm from unauthorized use or disclosure, and relevant legal requirements. We are committed to maintaining the confidentiality of your Personal Information throughout this period.
+    </p>
+     <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+By accessing this Website and any of its pages you are agreeing to the terms set out above. You may also request to have all your Personal Information deleted entirely. Please note that if you request the erasure of your Personal Information, we may retain and use your Personal Information to the extent necessary to comply with our legal obligations, including but not limited to tax, legal reporting and auditing obligations.
+    </p>
+     <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+If you would like to know more about the retention periods we apply to your Personal Information, please contact us at hello@sunga.africa or 0000
+    </p>
+    `,
     status: false
   },
   {
     id: 12,
     name: 'INTERNATIONAL TRANSFERS',
-    description: ``,
+    description: `
+      <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+        Some of our external third parties are based outside Zambia, so their processing of your personal data will involve a transfer of data outside Zambia. Whenever we transfer your personal data out of Zambia, we ensure a similar degree of protection is afforded to it. Please contact Us if you want further information on the specific mechanism used by Us when transferring your personal data out of Zambia.
+    </p>
+       <div class="mt-3">
+          <b>Opt-Out Rights</b>
+          <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+            Should you no longer wish to receive offers or other notifications from us, you may opt out. This can be done by contacting us using the details provided at the end of this Privacy Policy, or by following the "unsubscribe" link in any of our communications. Please note that if you are a User, you cannot opt out of communications concerning your Sunga account or related transactions.
+          </p>
+    </div>
+
+    <div class="mt-3">
+          <b>Other Rights to Your Personal Information with Us</b>
+          <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+            Beyond your right to opt out of our processing Personal Information, you also have the option of exercising any of the below rights with respect to your Personal Information:
+          </p>
+          <ul class="list-disc ml-5 mt-2">
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to request Correction to your Personal Information
+<br />We respect your wishes to correct inaccurate information and as such you must notify us of any change in your Personal Information. If you are a User, you can change some of your Personal Information by updating your Sunga account profile through our Services. Changes to financial details will require you to contact us directly. If you are not a User, you can contact us as indicated at the end of this Privacy Policy to make any changes or request on Personal Information we hold about you. Any changes will affect only future uses of your Personal Information and we may need to verify the accuracy of the new data you provide to us.
+</li>
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to request Access to your Personal Information
+<br />You can ask us whether we are storing your Personal Information, and you can ask to receive a copy of that Personal Information. Before sending you any Personal Information, we will ask you to provide proof of your identity. If you are not able to provide proof of your identity, we reserve the right to refuse to send you any Personal Information. We will respond as quickly as we can to your requests for details of Personal Information we hold about you.
+</li>
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to data portability
+<br />In certain circumstances you can request to receive a copy of your Personal Information in a commonly used electronic format. This right only applies to Personal Information that you have provided to us (for example by completing a form or providing information through our Website). Information about you which has been gathered by monitoring your digital behaviour will also be subject to the right to data portability. The right to data portability only applies if the processing is based on your consent or if the Personal Information must be processed for the performance of a contract and the processing is carried out by automated means (i.e., electronically).
+</li>
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to request us to refrain from doing certain things with your data or restrict the extent of our collection or processing of your data.
+<br />You may object to the processing of your Personal Information where you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your Personal Information for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.
+</li>
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to request partial or complete erasure of your Personal Information.
+<br />You may request for us to delete or remove Personal Information where there is no good reason for us to continue to process it. You also have the right to ask us to delete or remove your Personal Information where you have successfully exercised your right to object to processing, where we may have processed your information unlawfully or where we are required to erase your Personal Information to comply with local law. Note however that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.
+</li>
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to request the transfer of your Personal Information to another party.
+<br />We will provide to you, or a third party you have chosen, your Personal Information in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.
+</li>
+          <li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to lodge a complaint with the Commission
+<br />If you believe that the processing of your Personal Information violates data protection law, you may contact the Data Protection Commissioner of Zambia through the Office of the Data Protection Commissioner website: https://www.dataprotection.gov.zm
+<br />Before lodging a complaint with a supervisory authority, we encourage you to contact us first so we can address your concerns promptly.
+<br /> We will acknowledge and investigate all valid complaints in accordance with applicable laws
+</li>
+<li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to withdraw consent
+<br />Where we are relying on consent to process your Personal Information, you may withdraw your consent to the processing of Personal Information. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain Services to you. We may advise you if this is the case at the time you withdraw your consent.
+</li>
+<li class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Right to object to decisions taken by automated means
+<br />You have the right to object to decisions made solely based on automated processing of personal data, including profiling, that may have a legal effect on you. This means where the decision impacts your legal right i.e. freedom from discrimination or similarly significant effects. However, this right is not absolute where we have your consent, the decision is necessary for entering into or performing a contract with us, where there are appropriate safeguards for your rights.
+</li>
+        </ul>
+         <p class="text-[#1F2226] lg:text-[14px] mt-3 leading-[150%] font-normal font-dm-sans text-[14px]" >
+We would implement appropriate measures to protect your rights and interests. These measures include ensuring you can obtain human intervention in the decision-making process, express your views, and contest the decision.
+    </p>
+    </div>
+    `,
     status: false
   },
   {
     id: 13,
     name: 'GRIEVANCE REDRESS PROCEDURE',
-    description: ``,
+    description: `    
+    <p class="text-[#1F2226] lg:text-[14px] leading-[150%] font-normal font-dm-sans text-[14px]" >
+      Any complaints, questions, or requests regarding the processing of Personal Information should be directed to our customer service representatives via email at hello@sunga.africa or 0000, or to our Data Protection Officer at legal@sunga.africa. In the event of an infringement of data protection rights, we will ensure any damage is remedied within the shortest possible time.
+    </p>
+    <p class="text-[#1F2226] lg:text-[14px] leading-[150%] font-normal font-dm-sans text-[14px]" >
+      We are committed to promptly addressing any violations of data subjects' rights. Upon receiving a complaint or becoming aware of a breach, we will acknowledge the issue within 72 hours. We aim to fully resolve all issues within one (1) month. In cases where more time is required due to complexity, we will inform the data subject of the extension and the reasons for it within the initial one-month period.
+    </p>
+    `,
     status: false
   },
   {
     id: 14,
     name: 'CHAGES TO OUR PRIVACY POLICY',
-    description: ``,
+    description: ` 
+    <p class="text-[#1F2226] lg:text-[14px] leading-[150%] font-normal font-dm-sans text-[14px]" >
+Our privacy policy is subject to regular review. This current version was updated in November 2025. Any future changes will be posted through our Services. Unless otherwise specified or required by applicable law, the updated Privacy Policy will become effective upon its posting via our Services. You have the right to choose whether or not to accept a revised version of this Privacy Policy. However, your continued access to or use of our Services is contingent upon your acceptance of the revised Privacy Policy. Should you disagree with the terms of this Privacy Policy or any revised version, your only recourse is to discontinue your access and use of our Services. Unless we expressly state otherwise, your access and use of our Services are governed by the version of this Privacy Policy in effect at the time of your access or use.
+    </p>
+    `,
     status: false
   },
   {
     id: 15,
     name: 'HOW CAN I CONTACT SUNGA?',
-    description: ``,
+    description: `   
+     <p class="text-[#1F2226] lg:text-[14px] leading-[150%] font-normal font-dm-sans text-[14px]" >
+If you have any questions, comments, or concerns with respect to your Personal Information or this Privacy Policy please contact us at hello@sunga.africa or 00000 
+    </p>
+`,
     status: false
   }
 ];
