@@ -77,13 +77,13 @@ const Header = () => {
       })}
     >
       {!isVisible ? null : (
-        <div className="border-b bg-[#1A1A1A] p-[12px] text-white font-semibold flex flex-wrap lg:text-[16px] text-[10px] !font-red-hat-display lg:gap-4 gap-1 lg:leading-[27.2px] leading-[100%] items-center justify-center border-gray-200">
+        <div className="border-b bg-[#1A1A1A] p-[12px] text-white font-semibold  lg:text-[16px] text-[10px] !font-red-hat-display lg:gap-4 gap-1 lg:leading-[27.2px] leading-[100%] items-center justify-center text-center border-gray-200">
           This website uses cookies to improve your browsing experience. For
           more information, please review our{' '}
-          <Link href="/privacy-policy">Privacy Policy.</Link>
+          <Link href="/privacy-policy">Privacy Policy.</Link>{' '}
           <Button
             onClick={handleAccept}
-            className="text-white !py-[4px] !font-red-hat-display !h-auto lg:flex hidden"
+            className="text-white lg:!py-[4px] !py-[2px] !font-red-hat-display !h-auto "
           >
             Ok
           </Button>
