@@ -30,7 +30,7 @@ const Footer = ({
                     alt="sunga-web"
                     width={500}
                     height={500}
-                    className="lg:h-[36.27px] h-[31.74px] w-fit"
+                    className="lg:h-[36.27px] h-[31.74px] w-full"
                   />
                 </Link>
               </div>
