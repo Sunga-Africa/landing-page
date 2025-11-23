@@ -42,11 +42,14 @@ export default function Privacy() {
           property="og:description"
           content="Save, grow, and reach your goals with ease. Take charge of your money with Sunga."
         />
-        <meta property="og:image" content="" />
+        <meta
+          property="og:image"
+          content="https://sunga-website.sfo3.cdn.digitaloceanspaces.com/og-image/og-sunga-min.jpg"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sunga.com" />
+        <meta property="og:url" content="https://sunga.africa/privacy-policy" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -56,13 +59,15 @@ export default function Privacy() {
           name="twitter:description"
           content="Save, grow, and reach your goals with ease. Take charge of your money with Sunga."
         />
-        <meta name="twitter:image" content="" />
+        <meta
+          name="twitter:image"
+          content="https://sunga-website.sfo3.cdn.digitaloceanspaces.com/og-image/tw-sunga-min.jpg"
+        />
         <meta
           name="description"
           content="Save, grow, and reach your goals with ease. Take charge of your money with Sunga."
         />
       </Head>
-
       <HomeLayout>
         <motion.div
           className="container mx-auto py-6 px-4 lg:py-24"
@@ -82,7 +87,6 @@ export default function Privacy() {
               <h1 className="text-[24px] leading-[120%] lg:text-[72px] lg:leading-[100%] tracking-[-2px] font-red-hat-display font-bold text-[#000000]">
                 Privacy Policy
               </h1>{' '}
-             
             </motion.div>
 
             <motion.p
