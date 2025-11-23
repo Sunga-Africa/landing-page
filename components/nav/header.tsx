@@ -6,12 +6,34 @@ import classNames from 'classnames';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import HamburgerIcon from '@/assets/icons/hamburger';
- import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
+import Cookies from 'js-cookie';
+
+
+ const CONSENT_COOKIE_NAME = 'user_cookie_consent';
+ const COOKIE_EXPIRY_DAYS = 365;
 
 const Header = () => {
   const router = useRouter();
   const [scrolled, setScrolled] = useState<boolean>(false);
   const [open, setOpen] = useState(false);
+   const [isVisible, setIsVisible] = useState(false);
+
+   const handleAccept = () => {
+     Cookies.set(CONSENT_COOKIE_NAME, 'accepted', {
+       expires: COOKIE_EXPIRY_DAYS,
+       sameSite: 'Strict'
+     });
+     setIsVisible(false);
+     console.log('Analytics enabled! Implement your script loading here.');
+   };
+ 
+   useEffect(() => {
+     const userConsent = Cookies.get(CONSENT_COOKIE_NAME);
+     if (!userConsent) {
+       setIsVisible(true);
+     }
+   }, []);
 
   const links = [
     { name: 'How It Works', href: '/', dropdown: null },
@@ -54,11 +76,19 @@ const Header = () => {
         'fixed top-0 left-0 z-50 bg-white shadow text-black': scrolled
       })}
     >
-      <div className="border-b bg-[#1A1A1A] p-[12px] text-white font-semibold flex flex-wrap lg:text-[16px] text-[10px] !font-red-hat-display lg:gap-4 gap-1 lg:leading-[27.2px] leading-[100%] items-center justify-center border-gray-200">
-        This website uses cookies to enhance your experience. Learn more here:{' '}
-        <Link href="/privacy-policy">Privacy Policy</Link>
-        <Link href="/privacy-policy">Cookie Policy</Link>
-      </div>
+      {!isVisible ? null : (
+        <div className="border-b bg-[#1A1A1A] p-[12px] text-white font-semibold flex flex-wrap lg:text-[16px] text-[10px] !font-red-hat-display lg:gap-4 gap-1 lg:leading-[27.2px] leading-[100%] items-center justify-center border-gray-200">
+          This website uses cookies to improve your browsing experience. For
+          more information, please review our{' '}
+          <Link href="/privacy-policy">Privacy Policy.</Link>
+          <Button
+            onClick={handleAccept}
+            className="text-white !py-[4px] !font-red-hat-display !h-auto lg:flex hidden"
+          >
+            Ok
+          </Button>
+        </div>
+      )}
       <div className="container p-4 py-[20px] mx-auto justify-between flex items-center">
         <div className="text-2xl font-bold">
           <Link href="/">
@@ -69,7 +99,7 @@ const Header = () => {
               alt="sunga-web"
               width={500}
               height={500}
-              className="lg:h-[36.27px] h-[31.74px] w-fit"
+              className="lg:h-[36.27px] h-[31.74px] w-full"
             />
           </Link>
         </div>
@@ -108,6 +138,7 @@ const Header = () => {
           Download App
         </Button>
       </div>
+
       {open && (
         <div
           className={classNames(
