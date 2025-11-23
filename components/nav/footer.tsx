@@ -72,6 +72,12 @@ const Footer = ({
                       Privacy policy
                     </Link>
                     <Link
+                      href="/terms-and-conditions"
+                      className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
+                    >
+                     Terms and Conditions{' '}
+                    </Link>
+                    <Link
                       href="/"
                       className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
                     >
