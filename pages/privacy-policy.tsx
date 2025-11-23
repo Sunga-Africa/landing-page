@@ -82,9 +82,7 @@ export default function Privacy() {
               <h1 className="text-[24px] leading-[120%] lg:text-[72px] lg:leading-[100%] tracking-[-2px] font-red-hat-display font-bold text-[#000000]">
                 Privacy Policy
               </h1>{' '}
-              <p className="text-[#969696] lg:text-[16px] text-[10px]">
-                Updated on SEPTEMBER 30, 2024
-              </p>
+             
             </motion.div>
 
             <motion.p
@@ -110,7 +108,7 @@ export default function Privacy() {
               <h1 className="text-[#1F2226] font-bold mb-[12px] lg:text-[24px] leading-[100%] text-[20px]">
                 IMPORTANT INFORMATION AND WHO WE ARE
               </h1>
-              <p className="text-[#4141FF] lg:text-[20px] leading-[100%] text-[14px]">
+              <p className="text-primary lg:text-[20px] leading-[100%] text-[14px]">
                 Last Updated Nov 20, 2025
               </p>
             </motion.div>
