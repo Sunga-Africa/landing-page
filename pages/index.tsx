@@ -28,11 +28,14 @@ export default function Home() {
           property="og:description"
           content="Save, grow, and reach your goals with ease. Take charge of your money with Sunga."
         />
-        <meta property="og:image" content="" />
+        <meta
+          property="og:image"
+          content="https://sunga-website.sfo3.cdn.digitaloceanspaces.com/og-image/og-sunga-min.jpg"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sunga.com" />
+        <meta property="og:url" content="https://sunga.africa" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -42,13 +45,15 @@ export default function Home() {
           name="twitter:description"
           content="Save, grow, and reach your goals with ease. Take charge of your money with Sunga."
         />
-        <meta name="twitter:image" content="" />
+        <meta
+          name="twitter:image"
+          content="https://sunga-website.sfo3.cdn.digitaloceanspaces.com/og-image/tw-sunga-min.jpg"
+        />
         <meta
           name="description"
           content="Save, grow, and reach your goals with ease. Take charge of your money with Sunga."
         />
       </Head>
-
       <HomeLayout>
         <HeroSection />
         <Story />
