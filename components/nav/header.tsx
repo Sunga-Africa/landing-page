@@ -99,7 +99,7 @@ const Header = () => {
               alt="sunga-web"
               width={500}
               height={500}
-              className="lg:h-[36.27px] h-[31.74px] w-full"
+              className="lg:h-[36.27px] h-[31.74px] lg:w-full w-fit"
             />
           </Link>
         </div>
