@@ -77,7 +77,7 @@ const Footer = ({
                     >
                      Terms and Conditions{' '}
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/"
                       className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
                     >
@@ -88,7 +88,7 @@ const Footer = ({
                       className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
                     >
                       Legal{' '}
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/"
                       className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
