@@ -2,8 +2,8 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-ENV NEXT_PUBLIC_BASE_URL_PRODUCTION="https://higrammdesign.com/api"
-ENV NEXT_PUBLIC_CONTACT_EMAIL="hello@sunga-web.com"
+ENV NEXT_PUBLIC_BASE_URL_PRODUCTION="https://sunga.africa/api"
+ENV NEXT_PUBLIC_CONTACT_EMAIL="hello@sunga.africa"
 
 COPY package.json package-lock.json* ./
 RUN npm ci
@@ -17,8 +17,8 @@ WORKDIR /app
 EXPOSE 3000
 
 ENV NODE_ENV=production
-ENV NEXT_PUBLIC_BASE_URL_PRODUCTION="https://higrammdesign.com/api"
-ENV NEXT_PUBLIC_CONTACT_EMAIL="hello@sunga-web.com"
+ENV NEXT_PUBLIC_BASE_URL_PRODUCTION="https://sunga.africa/api"
+ENV NEXT_PUBLIC_CONTACT_EMAIL="hello@sunga.africa"
 
 RUN apk add --no-cache openssl
 
