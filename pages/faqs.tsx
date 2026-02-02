@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import HomeLayout from '@/layouts/HomeLayout';
  import { motion } from 'framer-motion';
-import PrivacyPolicy from '@/components/pages/privacy-policy';
+import Faqs from '@/components/pages/faqs';
 
-export default function Privacy() {
+export default function FAQs() {
   const metadata = {
-    title: 'Privacy Policy | Sunga',
+    title: 'FAQs | Sunga',
     description: ''
   };
 
@@ -85,38 +85,10 @@ export default function Privacy() {
               variants={itemVariants}
             >
               <h1 className="text-[24px] leading-[120%] lg:text-[72px] lg:leading-[100%] tracking-[-2px] font-red-hat-display font-bold text-[#000000]">
-                Privacy Policy
+                Frequently Asked Questions (FAQs)
               </h1>{' '}
             </motion.div>
-
-            <motion.p
-              className="text-[#1F2226] lg:text-[20px] leading-[150%] font-normal font-dm-sans text-[14px]"
-              variants={itemVariants}
-            >
-              <b>This privacy policy </b>(this &rdquo;Privacy Policy&quot;)
-              explains how personal information is collected, used, stored, and
-              disclosed by Sunga Technologies Limited, (&quot;Sunga,&ldquo;
-              &#34;we,&quot; &quot;us,&ldquo; and &quot;our&quot;).
-            </motion.p>
-
-            <motion.p
-              className="text-[#1F2226] lg:text-[20px] leading-[150%] font-normal font-dm-sans text-[14px]"
-              variants={itemVariants}
-            >
-              The provisions contained in this Privacy Policy supersede all
-              previous notices and statements regarding our privacy practices
-              with respect to our services.
-            </motion.p>
-
-            <motion.div variants={itemVariants}>
-              <h1 className="text-[#1F2226] font-bold mb-[12px] lg:text-[24px] leading-[100%] text-[20px]">
-                IMPORTANT INFORMATION AND WHO WE ARE
-              </h1>
-              <p className="text-primary lg:text-[20px] leading-[100%] text-[14px]">
-                Last Updated Nov 20, 2025
-              </p>
-            </motion.div>
-            <PrivacyPolicy />
+            <Faqs />
           </motion.div>
         </motion.div>
       </HomeLayout>
