@@ -25,7 +25,7 @@ const itemVariants = {
 
 export default function Story() {
   return (
-    <section className="container flex flex-col lg:flex-row gap-[32px] lg:gap-[72px] py-20 lg:py-24 justify-center items-center overflow-hidden">
+    <section id='our_strory' className="container flex flex-col lg:flex-row gap-[32px] lg:gap-[72px] py-20 lg:py-24 justify-center items-center overflow-hidden">
       <motion.div
         className="lg:w-1/2 flex flex-col gap-12 text-black"
         initial="hidden"
