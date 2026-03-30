@@ -36,8 +36,8 @@ const Header = () => {
    }, []);
 
   const links = [
-    { name: 'How It Works', href: '/', dropdown: null },
-    { name: 'Savings Plan', href: '/', dropdown: null },
+    { name: 'How It Works', href: '#howSungaWorks', dropdown: null },
+    { name: 'Savings Plan', href: '#start_saving', dropdown: null },
     { name: 'Security', href: '/', dropdown: null },
     { name: 'Contact', href: '/', dropdown: null }
   ];

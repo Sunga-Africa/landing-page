@@ -47,7 +47,7 @@ const Footer = ({
                   </span>
                   <div className="text-left flex flex-col gap-[7px] lg:gap-[18px] text-black">
                     <Link
-                      href="/"
+                      href="#our_strory"
                       className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
                     >
                       Our story{' '}
