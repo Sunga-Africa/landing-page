@@ -1,13 +1,13 @@
 import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
-import createAccount from '@/assets/images/how-sunga-works/create-account.png';
-// import choosePlan from '@/assets/images/how-sunga-works/choose-plan.png';
-// import saveAndEarn from '@/assets/images/how-sunga-works/save-and-earn.png';
-// import withdraw from '@/assets/images/how-sunga-works/withdraw.png';
+import createAccount from '@/assets/images/how-sunga-works/CreateAccount.png';
+import choosePlan from '@/assets/images/how-sunga-works/ChooseSavingsPlan.png';
+import saveAndEarn from '@/assets/images/how-sunga-works/Save&Earn.png';
+import withdraw from '@/assets/images/how-sunga-works/Withdrawal.png';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 // Define fixed step width and gap for consistent calculation
-const STEP_WIDTH = 610;
+const STEP_WIDTH = 600;
 const STEP_GAP = 20;
 const STEP_ITEM_TOTAL_WIDTH = STEP_WIDTH + STEP_GAP;
 
@@ -26,18 +26,18 @@ const HowSungaWorks = () => {
         title: 'Choose a Savings Plan',
         description:
           'Pick the plan that matches your goals. Whether you want flexibility, steady growth, or group saving, Sunga has you covered.',
-        image: createAccount
+        image: choosePlan
       },
       {
         title: 'Save & Earn',
         description:
           'Top up anytime through MTN, Airtel, Zamtel, or your bank and watch your money grow with confidence.',
-        image: createAccount
+        image: saveAndEarn
       },
       {
         title: 'Withdraw',
         description: 'Access your funds when your plan allows.',
-        image: createAccount
+        image: withdraw
       }
     ],
     []
@@ -142,7 +142,7 @@ const HowSungaWorks = () => {
   // Calculate progress bar width based on active step
 
   return (
-    <div style={{ height: componentTotalHeight }} ref={componentRef}>
+    <div style={{ height: componentTotalHeight }} ref={componentRef} id="howSungaWorks">
       <section className="sticky top-0 bg-white pt-10 pb-24 sm:pt-20 w-full overflow-hidden">
         <div className="container">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10">

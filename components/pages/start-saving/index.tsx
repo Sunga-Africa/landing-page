@@ -146,7 +146,7 @@ export default function StartSaving() {
   }, [isHovering, list.length]);
 
   return (
-    <section className=" bg-[#F8FAFD]">
+    <section className=" bg-[#F8FAFD]" id="start_saving">
       <section className="container  flex flex-col gap-12 lg:gap-24 py-20 lg:py-24 justify-center items-center overflow-hidden">
         <motion.div
           className="flex flex-col gap-12 text-black"
