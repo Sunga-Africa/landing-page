@@ -143,7 +143,7 @@ export default function StartSaving() {
     return () => {
       clearInterval(interval);
     };
-  }, [isHovering, list.length]);
+  }, [isHovering]);
 
   return (
     <section className=" bg-[#F8FAFD]" id="start_saving">
