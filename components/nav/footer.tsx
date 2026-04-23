@@ -53,7 +53,7 @@ const Footer = ({
                       Our story{' '}
                     </Link>
                     <Link
-                      href="/"
+                      href="mailto:hello@sunga.africa"
                       className="text-[#1A1A1A] font-normal font-sans leading-[24px] text-[12px] lg:text-[16px]"
                     >
                       Contact Us{' '}
@@ -107,20 +107,20 @@ const Footer = ({
             <div
               className={`text-right flex items-center justify-end gap-5 text-[#94A3B8] ${iconsColor}`}
             >
-              <Link href={'https://www.facebook.com/ sungahq'}>
+              <Link href={'https://www.facebook.com/sungaafrica'}>
                 <FacebookIcon />
               </Link>
-              <Link href={'https://x.com/ sungahq?s=21'}>
+              <Link href={'https://x.com/sungaafrica'}>
                 <XIcon />
               </Link>
               <Link
                 href={
-                  'https://www.instagram.com/ sungahq?igsh=MW5hM3F4MGd4a2UzNw=='
+                  'https://www.instagram.com/sungaafrica/'
                 }
               >
                 <InstagramIcon />
               </Link>
-              <Link href={'https://www.linkedin.com/company/ sungainc/'}>
+              <Link href={'https://www.linkedin.com/company/sunga-africa'}>
                 <LinkedInIcon />
               </Link>
             </div>
