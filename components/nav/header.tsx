@@ -38,8 +38,8 @@ const Header = () => {
   const links = [
     { name: 'How It Works', href: '#howSungaWorks', dropdown: null },
     { name: 'Savings Plan', href: '#start_saving', dropdown: null },
-    { name: 'Security', href: '/', dropdown: null },
-    { name: 'Contact', href: '/', dropdown: null }
+    // { name: 'Security', href: '/', dropdown: null },
+    { name: 'Contact', href: 'mailto:hello@sunga.africa', dropdown: null }
   ];
   const handleClick = () => {
     setOpen(!open);
