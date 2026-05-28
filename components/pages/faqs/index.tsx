@@ -34,9 +34,7 @@ const faqData = [
     description: `
      <div class="mt-3">
         <b>What is Sunga?</b>
-        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
-          Sunga is a digital savings platform that helps you save money consistently, earn interest, and reach your financial goals with ease.
-        </p>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Sunga is a digital savings platform designed for Zambians that helps individuals and groups save money securely towards their financial goals. Users can create savings plans, earn interest, and manage their savings directly from the app.        </p>
     </div>
      <div class="mt-3">
         <b>Who can use Sunga?</b>
@@ -64,10 +62,22 @@ const faqData = [
     name: 'Account & Verification',
     description: `
    <div class="mt-3">
-        <b>How do I create an account?</b>
+        <b>How do I create a Sunga account?</b>
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
-         Download the Sunga app, sign up with your mobile number, and follow the onboarding steps.      
+          Creating a Sunga account is simple:
         </p>
+        <ul class="mt-3 ml-4 list-decimal">
+            <li>Download the Sunga App </li>
+            <li>Register using: 
+                <ol class="mt-1 ml-3 list-disc">
+                    <li>Full Name</li>
+                    <li>Email Address </li>
+                    <li>Phone Number </li>
+                    <li>Password</li>
+                </ol>
+            </li>
+            <li>Verify your account using the OTP sent to your email or phone number. </li>
+        </ul>
     </div>
      <div class="mt-3">
         <b>Why do I need to verify my account?</b>
