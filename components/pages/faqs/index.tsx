@@ -34,9 +34,7 @@ const faqData = [
     description: `
      <div class="mt-3">
         <b>What is Sunga?</b>
-        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
-          Sunga is a digital savings platform that helps you save money consistently, earn interest, and reach your financial goals with ease.
-        </p>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >Sunga is a digital savings platform designed for Zambians that helps individuals and groups save money securely towards their financial goals. Users can create savings plans, earn interest, and manage their savings directly from the app.        </p>
     </div>
      <div class="mt-3">
         <b>Who can use Sunga?</b>
@@ -64,22 +62,91 @@ const faqData = [
     name: 'Account & Verification',
     description: `
    <div class="mt-3">
-        <b>How do I create an account?</b>
+        <b>How do I create a Sunga account?</b>
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
-         Download the Sunga app, sign up with your mobile number, and follow the onboarding steps.      
+          Creating a Sunga account is simple:
         </p>
+        <ul class="mt-3 ml-4 list-decimal">
+            <li>Download the Sunga App </li>
+            <li>Register using: 
+                <ol class="mt-1 ml-3 list-disc">
+                    <li>Full Name</li>
+                    <li>Email Address </li>
+                    <li>Phone Number </li>
+                    <li>Password</li>
+                </ol>
+            </li>
+            <li>Verify your account using the OTP sent to your email or phone number. </li>
+        </ul>
     </div>
-     <div class="mt-3">
-        <b>Why do I need to verify my account?</b>
+      <div class="mt-3">
+        <b>What documents are required for KYC?</b>
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
-          Verification helps keep your account secure and enables withdrawals.     
+          To complete KYC, you will need:
         </p>
+        <ul class="mt-3 ml-4 list-decimal">
+            <li>NRC, Passport, or Driver’s License  </li>
+            <li>A clear selfie/photo for verification purposes </li>
+         </ul>
     </div>
+    <div class="mt-3">
+        <b>Is KYC mandatory?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+          KYC can be skipped during signup, but it is required for:
+        </p>
+        <ul class="mt-3 ml-4 list-decimal">
+            <li>Withdrawals</li>
+            <li>Higher transaction limits </li>
+            <li>Sensitive account activities </li>
+         </ul> 
+    </div> 
      <div class="mt-3">
         <b>My verification failed. What should I do?</b>
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
           You can resubmit your details directly from the app or contact support if the issue persists.      
         </p>
+    </div>
+      <div class="mt-3">
+        <b>Can I use Sunga without a bank account?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+          Yes. You can use Sunga without a bank account by using Mobile Money:
+
+        </p>  
+        <ul class="mt-3 ml-4 list-decimal">
+            <li>MTN MoMo</li>
+            <li>Airtel Money  </li>
+            <li>Zamtel Money  </li>
+         </ul> 
+    </div>  
+        <div class="mt-3">
+        <b>I did not receive my OTP code. What should I do?<b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+Please:
+        </p>  
+        <ul class="mt-3 ml-4 list-decimal">
+            <li>Confirm whether you selected email or phone verification </li>
+            <li>Check your network connection  </li>
+            <li>Retry requesting the OTP  </li>
+         </ul> 
+             <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+For faster verification, we recommend using email, which is Sunga’s primary verification channel. If the issue continues, contact support for assistance. 
+        </p>  
+    </div>  
+         <div class="mt-3">
+        <b>Can I have more than one Sunga account?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+No. For security purposes, each user is allowed only one Sunga account. 
+        </p>
+    </div>
+           <div class="mt-3">
+        <b>Can I download my account statements?</b>
+          <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+Yes. Account statements can be downloaded in:
+        </p>
+            <ol class="mt-1 ml-3 list-disc">
+                <li>PDF format  </li>
+                <li>CSV format </li>
+            </ol>
     </div>
     `,
     status: false
@@ -93,7 +160,38 @@ const faqData = [
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
          You can save using Flex Bag, Saving Box, and Target Saving plans.    
         </p>
-    </div>
+        <div class="ml-2 mt-1"> 
+        <b>Flex Bag</b>
+         <ul class="mt-1 ml-4 list-decimal">
+            <li>Flexible savings </li>
+            <li>Daily interest accrual   </li>
+            <li>Monthly interest payout  </li>
+         </ul>
+       </div>
+         <div class="ml-2 mt-1"> 
+        <b>Saving Box</b>
+         <ul class="mt-1 ml-4 list-decimal">
+            <li>Locked or recurring savings  </li>
+            <li>Limited withdrawals </li>
+          </ul>
+       </div>
+      <div class="ml-2 mt-1"> 
+        <b>Savings Vault</b>
+         <ul class="mt-1 ml-4 list-decimal">
+            <li>Fixed-term savings   </li>
+            <li>No withdrawals until maturity  </li>
+            <li>Interest paid upfront or at maturity   </li>
+          </ul>
+       </div>
+      <div class="ml-2 mt-1"> 
+        <b>Target Saving</b>
+         <ul class="mt-1 ml-4 list-decimal">
+            <li>Goal-based savings    </li>
+            <li>Automatic or manual contributions  </li>
+            <li>Withdrawals after goal completion </li>
+          </ul>
+       </div>    
+       </div> 
      <div class="mt-3">
         <b>Can I have multiple savings goals?</b>
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
@@ -106,6 +204,13 @@ const faqData = [
           Some plans allow early withdrawals. Penalties or restrictions may apply depending on the plan type.     
         </p>
     </div>
+       <div class="mt-3">
+        <b>Can I save as a group?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+          Yes. Sunga offers Group Savings that allows multiple users to save together towards a shared goal. 
+        </p>
+    </div>
+ 
         `,
     status: false
   },
@@ -129,6 +234,18 @@ const faqData = [
         <b>My autosave did not run. What should I do?</b>
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
           You can retry autosave from the Help section or check your autosave history.   
+        </p>
+    </div>
+     <div class="mt-3">
+        <b>Are there charges when depositing money?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+              Sunga does not charge deposit fees. However, your bank or mobile network provider may apply transfer charges. 
+        </p>
+    </div>
+       <div class="mt-3">
+        <b>Can someone else deposit money into my Sunga account?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+              No, deposits can only be made using payment methods linked to the account holder for security and verification purposes.
         </p>
     </div>
     `,
@@ -174,6 +291,21 @@ const faqData = [
         <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
          Interest is applied based on the rules of your selected savings plan.
         </p>
+    </div>
+       <div class="mt-3">
+        <b>Do I earn interest on my savings?</b>
+        <p class="text-[#1F2226] lg:text-[14px]  leading-[150%] font-normal font-dm-sans text-[14px]" >
+          Yes. All Sunga savings plans earn interest based on the selected savings product.
+        </p>
+    </div>
+       <div class="mt-3">
+        <b>How is interest calculated?</b>
+            <ol class="mt-1 ml-3 list-disc">
+                <li><b>Flex Bag:</b> Daily accrual with monthly payout </li>
+                <li><b>Saving Box:</b> Fixed interest paid at maturity or specified periods  </li>
+                <li><b>Savings Vault:</b> Interest paid upfront or at maturity  </li>
+                <li><b>Target Saving:</b> Interest paid monthly or at completion  </li>
+            </ol>
     </div>
         `,
     status: false
