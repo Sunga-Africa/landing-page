@@ -58,7 +58,7 @@ export default function StartSaving() {
             <div className="flex items-center lg:w-auto w-full lg:justify-start justify-center gap-[16px]">
               <Button
                 size="lg"
-                className="text-base  px-[16px] text-primary bg-white"
+                className="text-base hover:bg-[#FFF5EC] transition-colors duration-300 ease-in-out px-[16px] text-primary bg-white"
               >
                 Grow with Sunga
               </Button>

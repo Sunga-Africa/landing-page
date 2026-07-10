@@ -6,6 +6,7 @@ import saving_target_h from '@/assets/images/start-saving/saving_target.svg';
 import savings_box from '@/assets/images/start-saving/savings_box.svg';
 import savings_vault from '@/assets/images/start-saving/saving_vault.svg';
 import flex_bag from '@/assets/images/start-saving/flex_bag.svg';
+import flex_bag_mobile from '@/assets/images/start-saving/flex_bag-m.svg';
 import Image from 'next/image';
 
 const containerVariants = {
@@ -38,7 +39,7 @@ const list = [
     desc: 'Deposit anytime, withdraw twice a month for free, and earn daily interest.',
     image: {
       default: flex_bag,
-      hover: flex_bag
+      hover: flex_bag_mobile
     },
     colors: {
       default: {

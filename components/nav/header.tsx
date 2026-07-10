@@ -38,8 +38,8 @@ const Header = () => {
   const links = [
     { name: 'How It Works', href: '#howSungaWorks', dropdown: null },
     { name: 'Savings Plan', href: '#start_saving', dropdown: null },
-    { name: 'Security', href: '/', dropdown: null },
-    { name: 'Contact', href: '/', dropdown: null }
+    // { name: 'Security', href: '/', dropdown: null },
+    { name: 'Contact', href: 'mailto:hello@sunga.africa', dropdown: null }
   ];
   const handleClick = () => {
     setOpen(!open);
@@ -99,7 +99,7 @@ const Header = () => {
               alt="sunga-web"
               width={500}
               height={500}
-              className="lg:h-[36.27px] h-[31.74px] lg:w-full w-fit"
+              className="lg:h-[36.27px] h-[31.74px] lg:w-full w-full"
             />
           </Link>
         </div>

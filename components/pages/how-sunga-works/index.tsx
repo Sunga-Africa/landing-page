@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 // Define fixed step width and gap for consistent calculation
-const STEP_WIDTH = 600;
+const STEP_WIDTH = 620;
 const STEP_GAP = 20;
 const STEP_ITEM_TOTAL_WIDTH = STEP_WIDTH + STEP_GAP;
 
